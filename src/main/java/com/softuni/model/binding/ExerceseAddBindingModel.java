@@ -29,7 +29,7 @@ public class ExerceseAddBindingModel {
     @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm")
     @PastOrPresent(message = "The date cannot be in future!")
     public LocalDateTime getStartedOn() {
-        return startedOn; 
+        return startedOn;  
     }
 
     public ExerceseAddBindingModel setStartedOn(LocalDateTime startedOn) {
